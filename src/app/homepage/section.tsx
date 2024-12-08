@@ -73,23 +73,23 @@ const BusinessServices = () => {
               key={index} 
               className={`${service.bgColor} border-none shadow-md hover:shadow-lg transition-shadow duration-300 rounded-none`}
             >
-              <CardContent className={`p-6`}>
+              <CardContent className="p-6">
                 <div className="mb-4 w-10 h-10 relative">
                   <img
                     src={service.icon}
                     alt={`${service.title} icon`}
-                    className={`w-full h-full object-contain`}
+                    className="w-full h-full object-contain"
                   />
                 </div>
-                <h3 className={`text-base font-semibold mb-2`}>
+                <h3 className="text-base font-semibold mb-2">
                   {service.title}
                 </h3>
-                <p className={`mb-4 text-sm`}>
+                <p className="mb-4 text-sm">
                   {service.description}
                 </p>
                 <Button 
                   variant="default"
-                  className={`bg-[#2563EB] hover:bg-blue-700 text-white px-4 py-2 text-sm`}
+                  className="bg-[#2563EB] hover:bg-blue-700 text-white px-4 py-2 text-sm"
                 >
                   Details →
                 </Button>
@@ -97,24 +97,22 @@ const BusinessServices = () => {
             </Card>
           ))}
         </div>
-        
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '32px', textAlign: 'center', margin: '0 auto', marginTop: '32px', backgroundColor: 'white', padding: '24px' }}>
-          <div>
-            <h3 style={{ fontSize: '36px', fontWeight: 'bold', color: '#00053D', marginBottom: '8px' }}>10k+</h3>
-            <p style={{ color: '#64748B' }}>Supported businesses</p>
-          </div>
-          <div>
-            <h3 style={{ fontSize: '36px', fontWeight: 'bold', color: '#00053D', marginBottom: '8px' }}>12k+</h3>
-            <p style={{ color: '#64748B' }}>Projects done</p>
-          </div>
-          <div>
-            <h3 style={{ fontSize: '36px', fontWeight: 'bold', color: '#00053D', marginBottom: '8px' }}>4k+</h3>
-            <p style={{ color: '#64748B' }}>Clients worldwide</p>
-          </div>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center mt-8 bg-white p-6 max-w-7xl mx-auto">
+        <div>
+          <h3 className="text-4xl font-bold text-[#00053D] mb-2">10k+</h3>
+          <p className="text-gray-500">Supported businesses</p>
+        </div>
+        <div>
+          <h3 className="text-4xl font-bold text-[#00053D] mb-2">12k+</h3>
+          <p className="text-gray-500">Projects done</p>
+        </div>
+        <div>
+          <h3 className="text-4xl font-bold text-[#00053D] mb-2">4k+</h3>
+          <p className="text-gray-500">Clients worldwide</p>
+        </div>
       </div>
-      
     </section>
   );
 };

@@ -4,7 +4,7 @@ const Business = () => {
   const sectors = [
     {
       title: "Real Estate",
-      image: "./blurimg.png", // Replace with your actual image paths
+      image: "./blurimg.png",
       alt: "Real Estate Sector"
     },
     {
