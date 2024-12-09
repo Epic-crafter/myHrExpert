@@ -1,7 +1,7 @@
 // import nodemailer from "nodemailer";
 // import { NextResponse } from "next/server";
 
-// export async function POST(request: any) {
+export async function POST() {
 //   try {
 //     const data = await request.json();
 
@@ -15,4 +15,4 @@
 //   } catch (e) {
 //     console.log(e);
 //   }
-// }
+}
