@@ -26,7 +26,6 @@ const BlueArrow = () => (
 const HeroSection = () => {
   return (
     <>
-      <Navbar />
       <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Content Container */}
         <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-32">

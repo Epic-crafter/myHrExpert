@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto pt-16 pr-18 pb-5 pl-18 bg-[#000D51]">
-    <div className="nav-container flex flex-wrap md:flex-nowrap justify-between gap-5">
+    <div className="w-full h-auto px-10 pt-16 bg-[#000D51]">
+    <div className=" flex flex-wrap md:flex-nowrap justify-between gap-5">
       <div className="section-1 flex flex-col justify-between w-full md:w-1/4">
         <div className="logo flex items-center mb-4">
           <img src="/img/Icon.png" alt="" className="mr-2" />

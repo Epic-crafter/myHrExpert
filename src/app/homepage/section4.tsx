@@ -28,7 +28,7 @@ const TestimonialSection = () => {
         </div>
 
         <div className="absolute bottom-12 right-12">
-          <span className="text-6xl font-serif text-navy-900">"</span>
+          <span className="text-6xl font-serif text-navy-900">&quot;</span>
         </div>
       </div>
     </div>

@@ -88,6 +88,14 @@ const Navbar = () => {
                 Contact
               </Link>
             </div>
+            <div className="px-3">
+              <Link
+                href="/blog"
+                className="text-white block py-3 md:py-6 text-center hover:underline hover:decoration-white hover:decoration-2 hover:underline-offset-4"
+              >
+                Blogs
+              </Link>
+            </div>
           </div>
         </div>
 
