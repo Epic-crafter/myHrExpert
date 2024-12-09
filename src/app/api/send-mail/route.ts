@@ -1,18 +1,18 @@
-import nodemailer from "nodemailer";
-import { NextResponse } from "next/server";
+// import nodemailer from "nodemailer";
+// import { NextResponse } from "next/server";
 
-export async function POST(request: any) {
-  try {
-    const data = await request.json();
+// export async function POST(request: any) {
+//   try {
+//     const data = await request.json();
 
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: "myhrexpert19@gmail.com",
-        pass: "wyub kmpl fzrm dvxs",
-      },
-    });
-  } catch (e) {
-    console.log(e);
-  }
-}
+//     const transporter = nodemailer.createTransport({
+//       service: "gmail",
+//       auth: {
+//         user: "myhrexpert19@gmail.com",
+//         pass: "wyub kmpl fzrm dvxs",
+//       },
+//     });
+//   } catch (e) {
+//     console.log(e);
+//   }
+// }
