@@ -67,8 +67,7 @@ const BlogPage = () => {
       <div className="w-full flex flex-col ">
         <h1 className="text-3xl font-semibold">Our blogs</h1>
         <p className="text-primary">
-          Unlocking Boundless Opportunities: Your Path to Online Degrees with
-          College counsel
+          Get the best services for your business
         </p>
       </div>
       <div className="flex flex-col items-end md:flex-row py-6 md:py-10 gap-4 md:justify-between">
