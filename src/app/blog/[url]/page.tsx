@@ -23,10 +23,10 @@ export async function generateMetadata({ params }:any) {
   }
 
   return {
-    title: `${blog?.title} - College Counsel`,
+    title: `${blog?.title} - My hr expert`,
     description: blog?.description,
     openGraph: {
-      title: ` ${blog?.title} -  College Counsel`,
+      title: ` ${blog?.title} -  My hr expert`,
       description: blog?.description,
       url: `${process.env.BASE_URL}/blog/${params.url}`,
     },

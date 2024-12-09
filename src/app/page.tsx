@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import Navbar from "./homepage/Navbar";
 import Section from "./homepage/section";
 import Section2 from "./homepage/section2";
 import Section21 from "./homepage/section2.1";
