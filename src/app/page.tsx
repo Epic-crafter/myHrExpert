@@ -2,13 +2,13 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import Navbar from "./Navbar";
-import Section from "./section";
-import Section2 from "./section2";
-import Section21 from "./section2.1";
-import Section3 from "./section3";
-import Section4 from "./section4";
-import Section5 from "./section5";
+import Navbar from "./homepage/Navbar";
+import Section from "./homepage/section";
+import Section2 from "./homepage/section2";
+import Section21 from "./homepage/section2.1";
+import Section3 from "./homepage/section3";
+import Section4 from "./homepage/section4";
+import Section5 from "./homepage/section5";
 
 const BlueArrow = () => (
   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

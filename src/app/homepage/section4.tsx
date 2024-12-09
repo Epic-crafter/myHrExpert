@@ -4,11 +4,11 @@ const TestimonialSection = () => {
   return (
     <div className="w-full max-w-6xl mx-auto p-8">
       <div className="bg-white rounded-lg shadow-lg p-12 flex flex-col md:flex-row gap-12 items-start relative">
-        {/* Left side - Image */}
+
         <div className="w-full md:w-96 h-96 bg-blue-600 rounded-lg flex-shrink-0 overflow-hidden">
-          {/* Custom image */}
+
           <img
-            src="./Img (3).png" // Replace with your image path
+            src="./Img (3).png" 
             alt="Testimonial"
             className="w-full h-full object-cover"
           />
@@ -27,7 +27,6 @@ const TestimonialSection = () => {
           </div>
         </div>
 
-        {/* Quote mark - now positioned inside the box */}
         <div className="absolute bottom-12 right-12">
           <span className="text-6xl font-serif text-navy-900">"</span>
         </div>

@@ -10,7 +10,6 @@ const Navbar = () => {
   return (
     <nav className="bg-[#00053d] w-full">
       <div className="container mx-auto h-[72px] flex items-center justify-between px-6 md:px-20">
-        {/* Logo and Company Name */}
         <div className="flex items-center gap-2">
           <div className="text-white text-2xl font-bold flex items-center">
             <svg viewBox="0 0 24 24" className="w-8 h-8 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +46,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Center Container for Links */}
+
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
