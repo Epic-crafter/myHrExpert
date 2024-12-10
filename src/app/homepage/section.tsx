@@ -4,38 +4,38 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
   {
-    icon: "./image copy 4.png",
-    title: "Marketing Strategy",
+    icon: "./homepageimages/talent.png",
+    title: " Talent Acquisition & Recruitment",
     description: "Suscipit feugiat purus ac nunc amet. Id pulvinar arcu nibh orci non rhoncus lobortis",
     bgColor: "bg-white hover:bg-[#1a1b3f] hover:text-white"
   },
   {
-    icon: "./abstract-shape(2).png",
-    title: "Financial management",
+    icon: "./homepageimages/hr.png",
+    title: "HR Strategy Development",
     description: "Sed lorem ut nulla tortor sit eget felis.Sit aliquet elementum ac nibh lorem nulla",
     bgColor: "bg-white hover:bg-[#1a1b3f] hover:text-white"
   },
   {
-    icon: "./marble 2.png",
-    title: "Business Strategy",
+    icon: "./homepageimages/performance.png",
+    title: "Performance Management & Training",
     description: "Vitae aliquam malesuada varius felis. Risus aliquam consequat habitant",
     bgColor: "bg-white hover:bg-[#1a1b3f] hover:text-white"
   },
   {
-    icon: "./abstract(3) 2.png",
-    title: "Sales and Marketing",
+    icon: "./homepageimages/regulatory-compliance (1).png",
+    title: "  HR Compliance & Policy Development",
     description: "Suscipit feugiat purus ac nunc amet. Id pulvinar arcu nibh orci non rhoncus lobortis id neque",
     bgColor: "bg-white hover:bg-[#1a1b3f] hover:text-white"
   },
   {
-    icon: "./abstract(1).png",
-    title: "Digital Technology",
+    icon: "./homepageimages/human-resources (1).png",
+    title: "HR Technology Implementations",
     description: "Suscipit feugiat purus ac nunc amet. Id pulvinar arcu nibh orci non rhoncus lobortis id neque",
     bgColor: "bg-white hover:bg-[#1a1b3f] hover:text-white"
   },
   {
-    icon: "./img.png",
-    title: "Human Resources",
+    icon: "../homepageimages/image copy.png",
+    title: "Organizational Design, workforce planning & Change Management",
     description: "Suscipit feugiat purus ac nunc amet. Id pulvinar arcu nibh orci non rhoncus lobortis id neque",
     bgColor: "bg-white hover:bg-[#1a1b3f] hover:text-white"
   }
