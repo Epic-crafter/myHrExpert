@@ -59,7 +59,7 @@ const HeroSection = () => {
         
       
           <img
-            src="./Img (2).png"
+            src="./aboutus-images/image copy 11.png"
             alt="Pot"
             className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto margin top-[98px]"
           />

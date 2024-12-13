@@ -31,18 +31,18 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="max-w-[600px] relative z-10">
             <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
-              BUSINESS CONSULTING
+            Empowering Your Business: Unleash Potential with us!
             </p>
 
             <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-5 leading-tight">
-              Ultimate Solutions for<br className="hidden md:block" />
-              Modern Businesses
+            We work with you to <br className="hidden md:block" />
+            make your vision a reality
             </h1>
 
             <p className="text-[#94A3B8] text-base lg:text-lg mb-10 leading-relaxed">
-              Suscipit feugiat purus ac nunc amet. Id pulvinar arcu nibh orci
+            Together, we’ll build a stronger foundation for growth and long-term success. Let us bring your vision to life!
               <br className="hidden md:block" />
-              non rhoncus lobortis id neque...
+              
             </p>
 
             {/* Features */}

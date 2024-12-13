@@ -1,8 +1,10 @@
 "use client";
 
+
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useState } from "react";
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,7 +48,6 @@ const Navbar = () => {
           </button>
         </div>
 
-
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
@@ -64,7 +65,7 @@ const Navbar = () => {
 
             <div className="px-3">
               <Link
-                href="/services"
+                href="../contact-us"
                 className="text-white block py-3 md:py-6 text-center hover:underline hover:decoration-white hover:decoration-2 hover:underline-offset-4"
               >
                 Services
@@ -73,7 +74,7 @@ const Navbar = () => {
 
             <div className="px-3">
               <Link
-                href="/about"
+                href="../about-us"
                 className="text-white block py-3 md:py-6 text-center hover:underline hover:decoration-white hover:decoration-2 hover:underline-offset-4"
               >
                 About

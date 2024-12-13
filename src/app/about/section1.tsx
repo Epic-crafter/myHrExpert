@@ -41,7 +41,7 @@ const HeroSection = () => {
               non rhoncus lobortis id neque...
             </p>
 
-        
+  
 
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
@@ -55,13 +55,19 @@ const HeroSection = () => {
           </div>
         </div>
 
+        {/* Right Design Element */}
         <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative">
-        
-      
+          {/* Background Design */}
           <img
-            src="./Img (2).png"
+            src="./aboutus-images/image copy 9.png"
+            alt="Background"
+            className="hidden lg:block w-full h-auto"
+          />
+
+          <img
+            src="./aboutus-images/image copy 10.png"
             alt="Pot"
-            className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto margin top-[98px]"
+            className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto"
           />
         </div>
       </div>
