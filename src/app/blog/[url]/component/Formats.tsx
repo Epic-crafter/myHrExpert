@@ -168,7 +168,7 @@ export const TableField = ({ data }: { data: TableFieldData }) => {
           </TableRow>
         </TableHeader>
         <TableBody className="border shadow">
-          {data?.table.slice(1).map((row, rowIndex) => (
+          {data?.table?.slice(1).map((row, rowIndex) => (
             <TableRow key={rowIndex}>
               {row.map((cell, cellIndex) => (
                 <TableCell key={cellIndex} className="border-t">

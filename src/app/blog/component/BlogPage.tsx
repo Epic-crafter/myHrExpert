@@ -21,9 +21,10 @@ const BlogPage = () => {
       const response = await fetch("api/blog/get");
       const data = await response.json();
       setLoading(false);
+      if(data.length>0){
       setBlogs(data);
       setSortedBlogs(data);
-      definePage(data.length);
+      definePage(data.length);}
     } catch (error) {
       console.error(error);
     }
@@ -53,7 +54,8 @@ const BlogPage = () => {
     } else if (sortOption === "oldest") {
       sorted = [...blogs];
     }
-    setSortedBlogs(sorted);
+    if(sorted.length>1){
+    setSortedBlogs(sorted);}
   };
 
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -95,7 +97,7 @@ const BlogPage = () => {
             )}
           </>
         )}
-        {blogs.length >= 1 && (
+        {blogs.length >= 0 && (
           <div className="py-10">
             <PaginationComponent
               currentPage={currentPage}
