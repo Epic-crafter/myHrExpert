@@ -14,7 +14,7 @@ export default function Contact() {
             <span className="text-white">A FREE CONSULTATION</span>
           </h2>
           <p className="text-base">
-            Don't forget to check out our socials!! They will be linked right here for y'all to get an idea about us! Go show us some love!
+            Don&apos;t forget to check out our socials!! They will be linked right here for y&apos;all to get an idea about us! Go show us some love!
           </p>
         </div>
         <div className="flex-1 bg-[#967860] p-8 rounded-3xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
