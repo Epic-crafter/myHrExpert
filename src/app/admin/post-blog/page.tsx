@@ -132,10 +132,9 @@ const Page = ()=> {
           value={details.writer}
           onChange={handleDetailsChange}
         >
-          <MenuItem value="Khushi">Khushi</MenuItem>
-          <MenuItem value="Janice">Janice</MenuItem>
-          <MenuItem value="Ripsi">Ripsi</MenuItem>
-          <MenuItem value="Saarah">Saarah</MenuItem>
+          <MenuItem value="Abhishek">Abhishek</MenuItem>
+          <MenuItem value="My Hr Expert">My Hr Expert</MenuItem>
+          <MenuItem value="Team">Team</MenuItem>
         </Select>
       </FormControl>
      </Card>
