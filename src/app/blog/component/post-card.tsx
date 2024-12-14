@@ -35,7 +35,7 @@ export default function PostCard({ post }:any) {
             className="w-full h-full object-cover rounded-md"
           />
           <Avatar className="absolute -bottom-3 left-6">
-            <AvatarFallback>CC</AvatarFallback>
+            <AvatarFallback>HE</AvatarFallback>
           </Avatar>
         </CardHeader>
         <CardContent className="mt-2 p-2 ">

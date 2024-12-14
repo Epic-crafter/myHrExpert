@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'collegecounsel.co.in',
+        hostname: 'img.freepik.com',
         port: '',
         pathname: '/**',
       },

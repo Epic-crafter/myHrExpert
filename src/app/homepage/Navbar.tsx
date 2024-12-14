@@ -65,7 +65,7 @@ const Navbar = () => {
 
             <div className="px-3">
               <Link
-                href="../contact-us"
+                href="/services"
                 className="text-white block py-3 md:py-6 text-center hover:underline hover:decoration-white hover:decoration-2 hover:underline-offset-4"
               >
                 Services
