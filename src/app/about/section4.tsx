@@ -4,18 +4,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 
 
-const BlueArrow = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="10" cy="10" r="10" fill="#2563EB" />
-    <path
-      d="M8 6L12 10L8 14"
-      stroke="white"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+
 
 const HeroSection = () => {
   return (
