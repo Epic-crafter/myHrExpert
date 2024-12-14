@@ -3,7 +3,7 @@ import connectDb from "@/lib/db";
 import Blogs from "@/model/blog.model";
 import { NextResponse } from "next/server";
 export const dynamic='force-dynamic'
-export async function GET(res:any,{params}){
+export async function GET({params}){
     try{
         const url = params.getBlogByUrl;
         await connectDb()

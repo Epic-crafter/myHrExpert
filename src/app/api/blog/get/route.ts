@@ -1,8 +1,8 @@
 import connectDb from "@/lib/db";
 import Blogs from "@/model/blog.model";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 export const dynamic='force-dynamic'
-export const GET= async(req:NextRequest,res:NextResponse)=>{
+export const GET= async()=>{
    
     try {
       await connectDb();
