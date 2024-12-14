@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+
 import { Button } from "@/components/ui/button";
 import Navbar from "./homepage/Navbar";
 import Section from "./homepage/section";
@@ -26,10 +27,11 @@ const BlueArrow = () => (
 const HeroSection = () => {
   return (
     <>
-      <Navbar />
+    <Navbar/>
       <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Content Container */}
-        <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-32">
+        <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-[5rem] pl-[11rem] lg:pl-[11rem]">
+
           {/* Left Content */}
           <div className="max-w-[600px] relative z-10">
             <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
