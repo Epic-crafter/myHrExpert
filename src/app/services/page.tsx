@@ -4,13 +4,14 @@ import LatestProjSection7 from '../components/LatestProjSection7';
 import Logos from '../components/Logos';
 import Section6 from '../components/Section6';
 import Section8 from '../components/section8';
+import Navbar from "../homepage/Navbar";
 import ServiceOfferSection3 from '../components/ServiceOfferSection3';
 import WorkWithUSection5 from '../components/WorkWithUSection5';
 
 const page = () => {
   return (
     <div>
-      {/* <div ><Navbar /></div> */}
+      <div ><Navbar /></div>
       <div ><Hero /></div>
       <div ><Logos /></div>
       <div ><ServiceOfferSection3 /></div>

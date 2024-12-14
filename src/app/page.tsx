@@ -7,6 +7,7 @@ import Section2 from "./homepage/section2";
 import Section21 from "./homepage/section2.1";
 import Section3 from "./homepage/section3";
 import Section4 from "./homepage/section4";
+import Navbar from "./homepage/Navbar";
 import Section5 from "./homepage/section5";
 
 const BlueArrow = () => (
@@ -24,7 +25,9 @@ const BlueArrow = () => (
 
 const HeroSection = () => {
   return (
+
     <>
+    <Navbar/>
       <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Content Container */}
         <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-32">
