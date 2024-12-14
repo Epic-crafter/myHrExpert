@@ -28,14 +28,13 @@ export default function PostCard({ post }:any) {
         <CardHeader className="relative p-2">
           <Image
             alt={title}
-            src={imageUrl || "/image/default.jpg"}
+            src={imageUrl || "/img/default.jpg"}
             width={450}
             height={300}
             loading="lazy"
             className="w-full h-full object-cover rounded-md"
           />
           <Avatar className="absolute -bottom-3 left-6">
-            <AvatarImage src="/logo/cc-bg.png" />
             <AvatarFallback>CC</AvatarFallback>
           </Avatar>
         </CardHeader>
