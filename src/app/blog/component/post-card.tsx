@@ -6,7 +6,7 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import Image from "next/image";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { PenLine } from "lucide-react";
 import { useRouter } from "next/navigation";
 
