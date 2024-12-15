@@ -8,7 +8,6 @@ import Section2 from "./homepage/section2";
 import Section21 from "./homepage/section2.1";
 import Section3 from "./homepage/section3";
 import Section4 from "./homepage/section4";
-import Navbar from "./homepage/Navbar";
 import Section5 from "./homepage/section5";
 
 const BlueArrow = () => (
