@@ -28,7 +28,6 @@ const HeroSection = () => {
   return (
 
     <>
-    <Navbar/>
       <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Content Container */}
         <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-[5rem] pl-[11rem] lg:pl-[11rem]">

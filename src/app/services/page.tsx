@@ -1,5 +1,4 @@
 import Hero from '../components/Hero';
-import Navbar from "../homepage/Navbar";
 import KnowMoreSection4 from '../components/KnowMoreSection4';
 import LatestProjSection7 from '../components/LatestProjSection7';
 import Logos from '../components/Logos';
@@ -11,7 +10,6 @@ import WorkWithUSection5 from '../components/WorkWithUSection5';
 const page = () => {
   return (
     <div>
-      <div ><Navbar /></div>
       <div ><Hero /></div>
       <div ><Logos /></div>
       <div ><ServiceOfferSection3 /></div>

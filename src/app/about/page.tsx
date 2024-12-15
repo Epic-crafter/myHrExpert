@@ -1,4 +1,3 @@
-import Navbar from "../homepage/Navbar";
 import Section from "./section"
 import Section1 from "./section1"
 import Section2 from "./section2"
@@ -11,9 +10,8 @@ import Section7 from "./section7"
 const Page = () => {
   return (
     <div>
-      <Section />
-      <Navbar />
       <Section1/>
+      <Section />
       <Section2/>
       <Section3/>
       <Section4/>
