@@ -11,7 +11,8 @@ const HeroSection = () => {
 
       <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Content Container */}
-        <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-32">
+        <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-[5rem] pl-[11rem] lg:pl-[11rem]">
+
           {/* Left Content */}
           <div className="max-w-[600px] relative z-10">
             <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
@@ -46,17 +47,20 @@ const HeroSection = () => {
         {/* Right Design Element */}
         <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative">
           {/* Background Design */}
-          <img
-            src="./aboutus-images/image copy 9.png"
-            alt="Background"
-            className="hidden lg:block w-full h-auto"
-          />
+          <div className="relative">
+  <img
+    src="./aboutus-images/image copy 9.png"
+    alt="Background"
+    className="hidden lg:block w-full h-auto"
+  />
+  {/* image */}
+  <img
+    src="./aboutus-images/image copy 10.png"
+    alt="Pot"
+    className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto transform translate-y-10"
+  />
+</div>
 
-          <img
-            src="./aboutus-images/image copy 10.png"
-            alt="Pot"
-            className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto"
-          />
         </div>
       </div>
 
