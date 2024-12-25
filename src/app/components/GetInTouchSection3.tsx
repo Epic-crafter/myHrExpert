@@ -39,12 +39,13 @@ export default function ContactForm() {
 
 
   return (
-    <div className='h-auto md:h-[715px] flex flex-col justify-between bg-[#F7F6F6] md:flex-row px-6 md:px-[182px] gap-[24px] py-6 md:py-[60px]'>
-  <div className="section1 flex justify-center md:justify-start">
+    <>
+    {/*<div className='h-auto md:h-[715px] flex flex-col justify-between bg-[#F7F6F6] md:flex-row px-6 md:px-[182px] gap-[24px] py-6 md:py-[60px]'>*/}
+  {/* <div className="section1 flex justify-center md:justify-start">
     <img className='w-full max-w-[300px] md:max-w-none md:h-auto' src="/img/Getin TouchSection3/Img (4).png" alt="Contact Us" />
-  </div>
+  </div> */}
 
-  <div className="section2 p-6 bg-white md:w-[636px] w-full">
+  <div className="section2 p-6 bg-white md:w-[550px] w-full">
     <span className="text-[#000D51] text-sm">BUSINESS CONSULTING</span>
     <h1 className="text-[#000D51] text-2xl md:text-4xl font-bold mt-2 w-full md:w-[474px]">Get in touch</h1>
 
@@ -74,21 +75,21 @@ export default function ContactForm() {
 
       <div className="subject flex flex-col gap-[6px]">
         <label htmlFor="subject" className='text-[#000D51]'>Subject</label>
-        <input name='subject' onChange={handleChange} value={formData.subject} className='border-[#8F8F8F] border-[1px] py-[9px] px-[16px] md:w-[556px] w-full' type="text" placeholder='Subject' />
+        <input name='subject' onChange={handleChange} value={formData.subject} className='border-[#8F8F8F] border-[1px] py-[9px] px-[16px] md:w-[500px] w-full' type="text" placeholder='Subject' />
       </div>
 
       <div className="YourMessage flex flex-col gap-[6px]">
         <label htmlFor="message" className='text-[#000D51]'>Your Message</label>
-        <input name='message' onChange={handleChange} value={formData.message} className='border-[#8F8F8F] border-[1px] py-[9px] px-[16px] md:w-[556px] w-full' type="text" placeholder='Your Message' />
+        <input name='message' onChange={handleChange} value={formData.message} className='border-[#8F8F8F] border-[1px] py-[9px] px-[16px] md:w-[500px] w-full' type="text" placeholder='Your Message' />
       </div>
 
-      <div className="send-button flex justify-end mt-4">
+      <div className="send-button flex justify-center mt-4">
         <button className="border-2 border-[#2460FD] px-4 py-2 bg-[#2460FD] text-white text-sm hover:bg-[#1E4FCC] transition-all">
           Send Message
         </button>
       </div>
     </form>
   </div>
-</div>
-  )
+{/* </div> */}
+ </> )
 }

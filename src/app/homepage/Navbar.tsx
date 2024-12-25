@@ -14,14 +14,10 @@ const Navbar = () => {
       <div className="container mx-auto h-[72px] flex items-center justify-between px-6 md:px-20">
         <div className="flex items-center gap-2">
           <div className="text-white text-2xl font-bold flex items-center">
-            <svg viewBox="0 0 24 24" className="w-8 h-8 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" />
-              <path d="M2 17L12 22L22 17" />
-              <path d="M2 12L12 17L22 12" />
-            </svg>
-            <span className="ml-2">
+            <img src="/homepageimages/logo3.png" alt="logo" className="w-36 " />
+            {/* <span className="ml-2">
               BUSINESS<br />CONSULTING
-            </span>
+            </span> */}
           </div>
         </div>
 

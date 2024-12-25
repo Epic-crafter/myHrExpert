@@ -1,6 +1,12 @@
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react"; // This import is unused, you may remove it if not needed
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const NewsSection = () => {
   const newsItems = [
@@ -8,21 +14,21 @@ const NewsSection = () => {
       date: "25.01.24",
       category: "Business consulting",
       title: "Building business agility begins with culture",
-      image: "./image copy.png",
+      image: "./homepageimages/image copy7.jpeg",
       link: "#"
     },
     {
       date: "25.01.24",
       category: "Business consulting",
       title: "Strategies to protect your profits",
-      image: "./image copy 2.png",
+      image: "./homepageimages/image copy7.jpeg",
       link: "#"
     },
     {
       date: "25.01.24",
       category: "Business consulting",
       title: "We Bring Flexibility & Cost Efficiency",
-      image: "./image copy 3.png",
+      image: "./homepageimages/image copy7.jpeg",
       link: "#"
     }
   ];
@@ -39,34 +45,39 @@ const NewsSection = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {newsItems.map((item, index) => (
-            <Card key={index} className="overflow-hidden bg-white rounded-md shadow-lg">
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={2}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+          className='w-full h-[400px] px-6 lg:px-24'
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+        >
+          {newsItems.map((newsItem, index) => (
+            <SwiperSlide
+              key={index}
+              className="relative aspect-square h-[120px] bg-gray-100 rounded-lg overflow-hidden shadow-md group"
+            >
               <img
-                src={item.image}
-                alt={item.title}
-                className="w-full object-cover h-64"
+                src={newsItem.image}
+                alt={newsItem.title}
+                className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
-              <CardContent className="p-6">
-                <div className="flex items-center text-sm text-gray-600 mb-2">
-                  <span>{item.date}</span>
-                  <span className="mx-2">/</span>
-                  <span>{item.category}</span>
-                </div>
-                <h3 className="text-xl font-semibold mb-4 text-navy-900">
-                  {item.title}
-                </h3>
-                <a
-                  href={item.link}
-                  className="inline-flex items-center text-blue-600 hover:text-blue-700 transition-colors"
-                >
-                  Read more
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
-              </CardContent>
-            </Card>
+              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent"></div>
+              <div className="absolute bottom-3 left-3 text-white text-lg font-medium z-10">
+                {newsItem.title}
+              </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
     </section>
   );

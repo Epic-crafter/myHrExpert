@@ -1,17 +1,17 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
     <div className="w-full h-auto px-10 pt-16 bg-[#000D51]">
     <div className=" flex flex-wrap md:flex-nowrap justify-between gap-5">
-      <div className="section-1 flex flex-col justify-between w-full md:w-1/4">
-        <div className="logo flex items-center mb-4">
-          <img src="/img/Icon.png" alt="" className="mr-2" />
-          <h2 className="text-white text-[16px] font-[600]">BUSINESS <br /> CONSULTING</h2>
+      <div className="section-1 flex flex-col justify-between w-50px md:w-1/4">
+        <div className="logo flex items-center mb-4 h-40">
+          <img src="/homepageimages/logo3.png" alt="" className="mr-2"  />
+          {/* <h2 className="text-white text-[16px] font-[600]">BUSINESS <br /> CONSULTING</h2> */}
         </div>
         <p className="w-full md:w-[312px] text-[#FFFFFFCC] text-[16px] font-[400] mb-4">
-          Velit facilisi senectus velit elementum. Consequat vel arcu feugiat dui eu tempor pretium at porta. Dui pellentesque sagittis
-        </p>
+        Empowering businesses with expert HR solutions.        </p>
         <div className="subscribe flex flex-col">
           <h2 className="text-white text-[16px] font-[600] mb-4">Subscribe Us</h2>
           <div className="subscribe-icon flex gap-3">
@@ -25,22 +25,26 @@ const Footer = () => {
       <div className="section-2-services flex flex-col w-full md:w-[167px]">
         <h2 className="text-[#FFFFFF] font-[700] text-[16px] mb-2">Services</h2>
         <div className="flex flex-col text-[#FFFFFFCC] font-[400] space-y-2">
-          <a href="#">Marketing Strategy</a>
-          <a href="#">Financial management</a>
-          <a href="#">Business Strategy</a>
-          <a href="#">Sales and Marketing</a>
-          <a href="#">Human Resources</a>
+          <a href="#">Talent Acuisition</a>
+          <a href="#">Training&Development
+          </a>
+          <a href="#">Performance Management
+          </a>
+          <a href="#">Policy Development
+          </a>
+          <a href="#">HR Compliances
+          </a>
         </div>
       </div>
   
       <div className="section-3-useful-links w-full md:w-[167px]">
         <h2 className="text-[#FFFFFF] font-[700] text-[16px] mb-2">Useful links</h2>
         <div className="flex flex-col text-[#FFFFFFCC] font-[400] space-y-2">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-          <a href="#">F.A.Q</a>
+          <a href="/home">Home</a>
+          <a href="/about">About</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
+          
         </div>
       </div>
   
@@ -48,23 +52,23 @@ const Footer = () => {
         <div className="info flex justify-between flex-wrap md:flex-nowrap mb-6">
           <div className="address gap-2 w-full md:w-[180px]">
             <h1 className="font-[700] text-[16px] text-[#F7F6F6]">Address</h1>
-            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">8592 Fairground</p>
-            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">St. Tallahassee,</p>
-            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">FL 32303</p>
+            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">540, Niti Khand-1,</p>
+            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">Indrapuram,</p>
+            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">Ghaziabad - 201014</p>
           </div>
   
           <div className="contact flex flex-col w-full md:w-[180px]">
             <h1 className="font-[700] text-[16px] text-[#F7F6F6]">Email</h1>
-            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">teverett@optonline.net</p>
+            <p className="text-[#FFFFFFCC] text-[16px] font-[400]"> info@myhrexpert.in</p>
             <h1 className="font-[700] text-[16px] text-[#F7F6F6] mt-4">Phone</h1>
-            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">(863) 267-3634</p>
+            <p className="text-[#FFFFFFCC] text-[16px] font-[400]">+91-9220795585</p>
           </div>
         </div>
   
         <div className="newsletter">
-          <h2 className="font-[700] text-[16px] text-[#F7F6F6] mb-2">Subscribe for our newsletter</h2>
+          <h2 className="font-[700] text-[16px] text-[#F7F6F6] mb-2">Be the first to know about innovative HR solutions and industry news. Subscribe now!</h2>
           <p className="text-[#FFFFFFCC] text-[16px] font-[400] mb-4">
-            Consequat vel arcu feugiat dui eu tempor pretium
+            
           </p>
           <div className="flex gap-3">
             <input
@@ -77,10 +81,11 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  
+    <Link href='https://amiigo.in'>
     <p className="flex justify-center text-[#FFFFFFCC] bg-[#000D51] mt-5 text-sm">
-      ©Copyright Business Consulting 2024. Design by Figma.guru
+    © 2024 MyHRExpert. All rights reserved.Design and Maintained by Amiigo Tech
     </p>
+    </Link>
   </div>
   
   )

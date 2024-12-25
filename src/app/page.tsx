@@ -9,6 +9,7 @@ import Section21 from "./homepage/section2.1";
 import Section3 from "./homepage/section3";
 import Section4 from "./homepage/section4";
 import Section5 from "./homepage/section5";
+import Link from "next/link";
 
 const BlueArrow = () => (
   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,28 +28,27 @@ const HeroSection = () => {
   return (
 
     <>
-      <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
+      <div className="bg-[#00053D] pd-10 min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Content Container */}
         <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-[5rem] pl-[11rem] lg:pl-[11rem]">
 
           {/* Left Content */}
-          <div className="max-w-[600px] relative z-10">
-            <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
+          <div className="max-w-[1000px] relative z-5">
+            {/* <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
             Empowering Your Business: Unleash Potential with us!
-            </p>
+            </p> */}
 
-            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-5 leading-tight">
-            We work with you to <br className="hidden md:block" />
-            make your vision a reality
-            </h1>
+            <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-3 leading-tight">
+
+            Empowering Your Business: Unleash Potential with us!          
+              </h1>
 
             <p className="text-[#94A3B8] text-base lg:text-lg mb-10 leading-relaxed">
-            Together, we’ll build a stronger foundation for growth and long-term success. Let us bring your vision to life!
-              <br className="hidden md:block" />
+            Welcome to MyHRexpert, India’s leading HR services provider. With a proven record of partnering with 50+ top Indian brands, we specialize in building and managing HR solutions for startups, SMEs, and industry leaders. Our expert team delivers innovative, tech-driven services to empower your business for growth and success. Let us be your trusted partner on the path to excellence!              <br className="hidden md:block" />
               
             </p>
 
-            {/* Features */}
+            {/* Features
             <div className="mb-10">
               <div className="flex flex-col md:flex-row gap-4 md:gap-16 mb-4">
                 <div className="flex items-center gap-2">
@@ -64,37 +64,39 @@ const HeroSection = () => {
                 <BlueArrow />
                 <span className="text-white">Innovation</span>
               </div>
-            </div>
+            </div> */}
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-              <Button
+            <div className="flex flex-col pb-8 sm:flex-row gap-4 sm:gap-6">
+              {/* <Button
                 className="border-2 border-[#2563EB] text-[#2563EB] bg-transparent px-8 py-3 text-base font-medium rounded hover:bg-[#2563EB] hover:text-white transition-colors"
               >
                 Button
-              </Button>
+              </Button> */}
+              <Link href="/contact" className="mx-auto">
               <Button
-                className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
+                className="bg-[#2563EB] text-white px-8 py-3 mx-auto text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
               >
-                Learn more
+                GET IN TOUCH
               </Button>
+              </Link>
             </div>
           </div>
         </div>
 
         {/* Right Design Element */}
-        <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative">
+        <div className="w-500px lg:w-2/5 mt-8 lg:mt-0 relative">
           {/* Background Design */}
-          <img
+          {/* <img
             src="./Group.png"
             alt="Background"
             className="hidden lg:block w-full h-auto"
-          />
+          /> */}
           {/* Image of the Woman */}
           <img
-            src="./pot.png"
+            src="./homepageimages/home.png"
             alt="Pot"
-            className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto"
+            className="hidden lg:block absolute top-0 object-cover right-0 lg:right-0 h-auto lg:h-[70vh]"
           />
         </div>
       </div>
