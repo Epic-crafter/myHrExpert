@@ -9,7 +9,7 @@ export const GET = async () => {
     await connectDb();
 
     // Fetch the latest 3 blogs sorted by upload_time in descending order
-    const blogs = await Blogs.find({}, 'url title writer imageUrl upload_time')
+    const blogs = await Blogs.find({}, 'url title meta writer imageUrl upload_time')
       .sort({ upload_time: -1 })
       .limit(3);
 
