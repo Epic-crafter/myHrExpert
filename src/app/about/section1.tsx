@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <>
 
-      <div className="bg-[#00053D] h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
+      <div className="bg-[#00053D] h-[57vh] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Content Container */}
         <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-[5rem] pl-[11rem] lg:pl-[11rem]">
 
@@ -19,10 +19,12 @@ const HeroSection = () => {
               BUSINESS CONSULTING
             </p> */}
 
-            <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-5 leading-tight">
-              Ultimate Solutions for Modern Businesses - 
-              
-            </h1>
+            {/* <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-5 leading-tight">
+              Ultimate Solutions for Modern Businesses - </h1><p className="text-[#94A3B8] text-base lg:text-lg mb-10 leading-relaxed">
+            Ultimate Solutions for Modern Businesses - At MyHRExpert, we deliver tailored HR solutions that align with your unique business needs. Our experienced team combines industry expertise with innovative technology to streamline your HR processes and enhance efficiency. We prioritize employee engagement and retention, fostering a positive workplace culture that drives productivity. With a comprehensive range of services—from talent acquisition to performance management—we are your all-in-one HR partner. Committed to ensuring compliance and mitigating risks, we deliver proven results. Experience the MyHRExpert advantage and unlock your organization’s full potential today!             
+            </p>
+               */}
+            
 
             <p className="text-[#94A3B8] text-base lg:text-lg mb-10 leading-relaxed">
             Ultimate Solutions for Modern Businesses - At MyHRExpert, we deliver tailored HR solutions that align with your unique business needs. Our experienced team combines industry expertise with innovative technology to streamline your HR processes and enhance efficiency. We prioritize employee engagement and retention, fostering a positive workplace culture that drives productivity. With a comprehensive range of services—from talent acquisition to performance management—we are your all-in-one HR partner. Committed to ensuring compliance and mitigating risks, we deliver proven results. Experience the MyHRExpert advantage and unlock your organization’s full potential today!             
@@ -49,7 +51,7 @@ const HeroSection = () => {
   <img
     src="./aboutus/image4.png"
     alt="Background"
-    className="hidden lg:block w-full h-auto absolute bottom-0"
+    className="hidden lg:block w-full h-auto absolute "
   />
   {/* image */}
   {/* <img
