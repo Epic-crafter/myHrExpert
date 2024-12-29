@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="w-full h-auto px-10 pt-16 bg-[#000D51]">
     <div className=" flex flex-wrap md:flex-nowrap justify-between gap-5">
       <div className="section-1 flex flex-col justify-between w-50px md:w-1/4">
-        <div className="logo flex items-center mb-4 h-40">
-          <img src="/homepageimages/logo3.png" alt="" className="mr-2"  />
+        <div className="logo flex items-center mb-4 h-[40vh]">
+          <img src="/homepageimages/logo4.png" alt="" className="mr-2"  />
           {/* <h2 className="text-white text-[16px] font-[600]">BUSINESS <br /> CONSULTING</h2> */}
         </div>
         <p className="w-full md:w-[312px] text-[#FFFFFFCC] text-[16px] font-[400] mb-4">

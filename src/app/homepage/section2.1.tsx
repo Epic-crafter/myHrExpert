@@ -9,13 +9,13 @@ import 'swiper/css/navigation';
 
 const Business = () => {
   const sectors = [
-    { title: "Higher Shiksha", image: "./homepageimages/icon1.jpg", alt: "Higher Shiksha Sector" },
+    { title: "Higher Shiksha", image: "./homepageimages/logo002.jpeg", alt: "Higher Shiksha Sector" },
     { title: "Pharmalinkin", image: "./homepageimages/icon.jpg", alt: "Pharmalinkin Sector" },
-    { title: "Face Transformers", image: "./homepageimages/icon01.jpg", alt: "Face Transformers Sector" },
-    { title: "Unacademy", image: "./homepageimages/icon6.png", alt: "L'amour Bakehouse Sector" },
-    { title: "Genpact", image: "./homepageimages/icon7.png", alt: "Collegepartner Sector" },
-    { title: "Unico", image: "./homepageimages/icon3.png", alt: "Unico Foods Sector" },
-    { title: "Collegetour", image: "./homepageimages/icon5.png", alt: "Collegetour Sector" },
+    { title: "Face Transformers", image: "./homepageimages/logo003.jpeg", alt: "Face Transformers Sector" },
+    { title: "L'amour Bakehouse", image: "./homepageimages/logo007.jpeg", alt: "L'amour Bakehouse Sector" },
+    { title: "Collegepartner", image: "./homepageimages/logo006.jpeg", alt: "Collegepartner Sector" },
+    { title: "Unico", image: "./homepageimages/logo004.jpeg", alt: "Unico Foods Sector" },
+    { title: "Collegetour", image: "./homepageimages/logo005.jpeg", alt: "Collegetour Sector" },
     { title: "Amiigo", image: "./homepageimages/image copy7.jpeg", alt: "Amiigo Sector" },
     { title: "Intelenet", image: "./homepageimages/icon9.png", alt: "Intelenet Sector" },
   ];
@@ -26,7 +26,7 @@ const Business = () => {
       {/* Header Section */}
       <div className="flex flex-col md:flex-row justify-between items-start mb-14">
         <div className="flex flex-col gap-2 max-w-xl">
-          <span className="text-base font-semibold text-[#000D51] uppercase tracking-wide">BUSINESS CONSULTING</span>
+          {/* <span className="text-base font-semibold text-[#000D51] uppercase tracking-wide">BUSINESS CONSULTING</span> */}
           <span className="text-3xl md:text-4xl font-bold text-[#000D51] leading-tight">
             What sectors of the economy do we serve
           </span>
