@@ -28,12 +28,12 @@ const HeroSection = () => {
   return (
 
     <>
-      <div className="bg-[#00053D] pd-10 min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
+      <div className="bg-[#00053D] flex flex-col lg:flex-row">
         {/* Content Container */}
-        <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-[5rem] pl-[11rem] lg:pl-[11rem]">
+        <div className="w-full flex md:flex-row flex-col md:justify-between md:p-8 p-16">
 
           {/* Left Content */}
-          <div className="max-w-[1000px] relative z-5">
+          <div className="section-1 z-5 md:w-full">
             {/* <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
             Empowering Your Business: Unleash Potential with us!
             </p> */}
@@ -67,7 +67,7 @@ const HeroSection = () => {
             </div> */}
 
             {/* Buttons */}
-            <div className="flex flex-col pb-8 sm:flex-row gap-4 sm:gap-6">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
               {/* <Button
                 className="border-2 border-[#2563EB] text-[#2563EB] bg-transparent px-8 py-3 text-base font-medium rounded hover:bg-[#2563EB] hover:text-white transition-colors"
               >
@@ -85,7 +85,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Design Element */}
-        <div className="w-500px lg:w-2/5 mt-8 lg:mt-0 relative">
+        <div className="section-2 w-full md:w-full flex justify-center items-center">
           {/* Background Design */}
           {/* <img
             src="./Group.png"
@@ -96,7 +96,7 @@ const HeroSection = () => {
           <img
             src="./homepageimages/home.png"
             alt="Pot"
-            className="hidden lg:block absolute top-0 object-cover right-0 lg:right-0 h-auto lg:h-[70vh]"
+            className="lg:block object-cover h-auto lg:h-[70vh]"
           />
         </div>
       </div>

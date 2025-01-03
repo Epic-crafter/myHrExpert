@@ -31,7 +31,7 @@ const LogoGrid = () => {
 
   return (
     <div className="bg-white rounded-lg p-8 my-8 shadow-[0px_-2px_4px_0px_rgba(0,0,0,0.05)]">
-      <div className="grid grid-cols-5 gap-8 justify-center items-center">
+      <div className="grid md:grid-cols-5 grid-cols-2 space-y-6 justify-center items-center">
         {logos.map((logo) => (
           <div key={logo.id} className="w-full h-full flex justify-center items-center">
             <img src={logo.src} alt={logo.alt} className="w-[46px] h-3/4" />

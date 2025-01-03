@@ -2,13 +2,13 @@ import React from 'react'
 
 const WorkWithUSection5 = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full h-auto bg-[#F7F6F6] p-6 md:pt-[107px] md:pr-[182px] md:pb-[107px] md:pl-[182px] gap-8 md:gap-[134px] items-center">
+    <div className="flex flex-col md:flex-row w-full h-auto bg-[#F7F6F6] md:px-24 md:py-16 items-center justify-between space-x-5">
   <div className="image-container w-full md:w-[416px] md:h-[416px] flex justify-center">
     <img className="max-w-full max-h-full object-cover" src="/service/image9.png" alt="Business Consulting" />
   </div>
 
 
-  <div className="text-section w-full md:w-[526px] h-auto gap-4 md:gap-[20px] flex flex-col justify-center items-start md:items-start">
+  <div className="text-section w-full md:w-[526px] h-auto gap-4 md:gap-[20px] flex flex-col justify-center items-start md:items-start md:py-0 px-5 py-8">
     {/* <span className="text-[14px] md:text-[16px] font-[400] text-[#000D5199]">
       Business consulting
     </span> */}

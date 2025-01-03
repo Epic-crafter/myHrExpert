@@ -50,7 +50,7 @@ const NewsSection = () => {
           slidesPerView={2}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
-          className='w-full h-[400px] px-6 lg:px-24'
+          className='w-full px-6 lg:px-24'
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -72,7 +72,7 @@ const NewsSection = () => {
                 className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent"></div>
-              <div className="absolute bottom-3 left-3 text-white text-lg font-medium z-10">
+              <div className="absolute bottom-3 left-3 text-white text-md font-medium z-10">
                 {newsItem.title}
               </div>
             </SwiperSlide>
