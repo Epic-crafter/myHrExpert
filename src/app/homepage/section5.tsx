@@ -1,6 +1,4 @@
 import React from 'react';
-import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight } from "lucide-react"; // This import is unused, you may remove it if not needed
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
