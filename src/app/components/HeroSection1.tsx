@@ -7,7 +7,7 @@ const HeroSection1 = () => {
       <div className="hero-text-btn gap-[40px] mx-auto md:mx-0 text-center">
         {/* <span className="text-[#FFFFFFCC] text-sm">Contact us</span> */}
         <h1 className="text-white text-3xl md:text-4xl font-bold mt-2">
-        "Have HR Challenges? We’ve Got Solutions!"
+        &quot;Have HR Challenges? We’ve Got Solutions!&quot;
         </h1>
         <p className="text-[#FFFFFFCC] text-xs md:text-sm mt-2">
         Whether it’s a query, a partnership, or feedback, we’re all ears.
