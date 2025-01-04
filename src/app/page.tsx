@@ -11,18 +11,18 @@ import Section4 from "./homepage/section4";
 import Section5 from "./homepage/section5";
 import Link from "next/link";
 
-const BlueArrow = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="10" cy="10" r="10" fill="#2563EB" />
-    <path
-      d="M8 6L12 10L8 14"
-      stroke="white"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+// const BlueArrow = () => (
+//   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+//     <circle cx="10" cy="10" r="10" fill="#2563EB" />
+//     <path
+//       d="M8 6L12 10L8 14"
+//       stroke="white"
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     />
+//   </svg>
+// );
 
 const HeroSection = () => {
   return (

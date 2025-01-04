@@ -8,7 +8,7 @@ const WorkWithUSection5 = () => {
   </div>
 
 
-  <div className="text-section w-full md:w-[526px] h-auto gap-4 md:gap-[20px] flex flex-col justify-center items-start md:items-start md:py-0 px-5 py-8">
+  <div className="text-section md:w-[526px] h-auto gap-4 md:gap-[20px] flex flex-col justify-center items-start md:items-start md:py-0 px-3 py-8">
     {/* <span className="text-[14px] md:text-[16px] font-[400] text-[#000D5199]">
       Business consulting
     </span> */}

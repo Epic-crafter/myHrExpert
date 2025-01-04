@@ -40,11 +40,10 @@ const Footer = () => {
       <div className="section-3-useful-links">
         <h2 className="text-[#FFFFFF] font-[700] text-[16px] mb-2">Useful links</h2>
         <div className="flex flex-col text-[#FFFFFFCC] font-[400] space-y-2">
-          <a href="/home">Home</a>
-          <a href="/about">About</a>
-          <a href="/blog">Blog</a>
-          <a href="/contact">Contact</a>
-          
+          <Link href="/home">Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
   

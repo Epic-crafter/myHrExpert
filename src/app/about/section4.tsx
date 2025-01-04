@@ -31,14 +31,14 @@ const HeroSection = () => {
         
 
 
-            {/* <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
              
               <Button
                 className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
               >
                 Learn more
               </Button>
-            </div> */}
+            </div>
           </div>
         </div>
 

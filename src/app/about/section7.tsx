@@ -4,27 +4,27 @@ const LogoGrid = () => {
   const logos = [
     {
       id: 'D+',
-      src: './aboutus-images/image copy 12.png',
+      src: '/aboutus/image copy 12.png',
       alt: 'D+ Company'
     },
     {
       id: 'FA',
-      src: './aboutus-images/image copy 20.png',
+      src: '/aboutus/image copy 20.png',
       alt: 'FA Company'
     },
     {
       id: 'A',
-      src: './aboutus-images/image copy 24.png',
+      src: '/aboutus/image copy 24.png',
       alt: 'A Company'
     },
     {
       id: 'RCA',
-      src: './aboutus-images/image copy 22.png',
+      src: '/aboutus/image copy 22.png',
       alt: 'RCA Company'
     },
     {
       id: 'Company',
-      src: './aboutus-images/image copy 23.png',
+      src: '/aboutus/image copy 23.png',
       alt: 'Company'
     }
   ];
