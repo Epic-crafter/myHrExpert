@@ -30,7 +30,7 @@ const HeroSection = () => {
     <>
       <div className="bg-[#00053D] flex flex-col lg:flex-row">
         {/* Content Container */}
-        <div className="w-full flex md:flex-row flex-col md:justify-between md:p-8 p-16">
+        <div className="w-full flex md:flex-row flex-col md:justify-between md:p-16 p-6">
 
           {/* Left Content */}
           <div className="section-1 z-5 md:w-full">
