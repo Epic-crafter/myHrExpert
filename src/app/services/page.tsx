@@ -15,7 +15,7 @@ const page = () => {
       <div ><ServiceOfferSection3 /></div>
       <div ><KnowMoreSection4 /></div>
       <div ><WorkWithUSection5 /></div>
-      <div ><Section6 /></div>
+      {/* <div ><Section6 /></div> */}
       {/* <div ><LatestProjSection7 /></div> */}
       <div ><Section8 /></div>
     </div>

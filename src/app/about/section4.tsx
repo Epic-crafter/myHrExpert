@@ -42,13 +42,14 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative">
+        <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative ">
         
       
           <img
             src="./aboutus/image5.jpg"
             alt="Pot"
-            className="hidden lg:block absolute right-0 lg:right-0 w-1/2 lg:w-auto margin top-[0px]"
+            className="hidden lg:block absolute right-0 lg:right-0 w-1/2 lg:w-auto h-[523px] top-[0px]"
+
           />
         </div>
       </div>
