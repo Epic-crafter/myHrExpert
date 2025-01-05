@@ -2,14 +2,14 @@ import React from "react";
 
 const OurTeam = () => {
   const teamMembers = [
-    { name: "Ryder Malone", role: "Global Interactions Agent", image: "./aboutus-images/image copy 6.png" },
-    { name: "Allyson Blair", role: "Investor Response Assistant", image: "./aboutus-images/image copy 13.png" },
-    { name: "Jackson Mahoney", role: "Chief Factors Coordinator", image: "./aboutus-images/image copy 14.png" },
-    { name: "Kara Hawkins", role: "Product Quality Strategist", image: "./aboutus-images/image copy 15.png" },
-    { name: "Valeria Bolton", role: "Global Interactions Agent", image: "./aboutus-images/image copy 16.png" },
-    { name: "Johnathon Crosby", role: "Investor Response Assistant", image: "./aboutus-images/image copy 17.png" },
-    { name: "Derick Fry", role: "Product Quality Strategist", image: "./aboutus-images/image copy 18.png" },
-    { name: "Erick Taylor", role: "Chief Factors Coordinator", image: "./aboutus-images/image copy 19.png" },
+    { name: "Ryder Malone", role: "Global Interactions Agent", image: "aboutus/image copy 6.png" },
+    { name: "Allyson Blair", role: "Investor Response Assistant", image: "/aboutus/image copy 13.png" },
+    { name: "Jackson Mahoney", role: "Chief Factors Coordinator", image: "/aboutus/image copy 14.png" },
+    { name: "Kara Hawkins", role: "Product Quality Strategist", image: "/aboutus/image copy 15.png" },
+    { name: "Valeria Bolton", role: "Global Interactions Agent", image: "/aboutus/image copy 16.png" },
+    { name: "Johnathon Crosby", role: "Investor Response Assistant", image: "/aboutus/image copy 17.png" },
+    { name: "Derick Fry", role: "Product Quality Strategist", image: "/aboutus/image copy 18.png" },
+    { name: "Erick Taylor", role: "Chief Factors Coordinator", image: "/aboutus/image copy 19.png" },
   ];
 
   return (

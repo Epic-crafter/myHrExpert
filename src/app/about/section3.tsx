@@ -6,26 +6,25 @@ const BusinessStats = () => {
 
       <div className="flex-shrink-0">
         <img
-          src="./aboutus-images/image copy 7.png"
+          src="./aboutus/image.jpg"
           alt="Business consulting"
-          className="w-full max-w-lg lg:max-w-md h-auto object-cover rounded-md shadow-sm"
+          className="w-full max-w-lg lg:max-w-md h-[55vh] object-cover rounded-md shadow-sm"
         />
       </div>
 
 
       <div className="mt-12 lg:mt-0 lg:ml-20 max-w-lg">
        
-        <p className="text-sm tracking-wide text-gray-500 uppercase">
+        {/* <p className="text-sm tracking-wide text-gray-500 uppercase">
           BUSINESS CONSULTING
-        </p>
+        </p> */}
         <h1 className="text-4xl lg:text-5xl font-bold text-[#0A2463] mt-2">
-          Take your small business <br /> since the NEXT level.
+          Take your business to the NEXT level!
         </h1>
 
 
         <p className="text-gray-600 mt-4 text-lg leading-relaxed">
-          Tincidunt massa amet sagittis aliquam turpis volutpat. Vitae aliquam
-          malesuada varius felis
+          With My HR Expert, you can expect;
         </p>
 
 
@@ -33,39 +32,39 @@ const BusinessStats = () => {
  
           <div>
             <p className="text-gray-600 text-base font-medium">
-              overall satisfaction
+              Expertise in Services
             </p>
             <div className="w-full bg-gray-200 h-2 rounded-md mt-1">
               <div
                 className="bg-blue-500 h-2 rounded-md"
-                style={{ width: "98%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
-            <p className="text-gray-600 text-sm text-right mt-1">98%</p>
+            <p className="text-gray-600 text-sm text-right mt-1">100%</p>
           </div>
 
           
           <div>
-            <p className="text-gray-600 text-base font-medium">massa amet</p>
+            <p className="text-gray-600 text-base font-medium">Quality Employees</p>
             <div className="w-full bg-gray-200 h-2 rounded-md mt-1">
               <div
                 className="bg-blue-500 h-2 rounded-md"
-                style={{ width: "96%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
-            <p className="text-gray-600 text-sm text-right mt-1">96%</p>
+            <p className="text-gray-600 text-sm text-right mt-1">100%</p>
           </div>
 
           
           <div>
-            <p className="text-gray-600 text-base font-medium">varius felis</p>
+            <p className="text-gray-600 text-base font-medium">Overall Satisfaction</p>
             <div className="w-full bg-gray-200 h-2 rounded-md mt-1">
               <div
                 className="bg-blue-500 h-2 rounded-md"
-                style={{ width: "94%" }}
+                style={{ width: "100%" }}
               ></div>
             </div>
-            <p className="text-gray-600 text-sm text-right mt-1">94%</p>
+            <p className="text-gray-600 text-sm text-right mt-1">100%</p>
           </div>
         </div>
       </div>

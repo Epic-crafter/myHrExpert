@@ -2,26 +2,24 @@
 
 
 import { Button } from "@/components/ui/button";
+import { WhatsApp } from "@mui/icons-material";
 import Link from "next/link";
 import { useState } from "react";
+import { MdWhatsapp } from "react-icons/md";
 
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-[#00053d] w-full">
-      <div className="container mx-auto h-[72px] flex items-center justify-between px-6 md:px-20">
-        <div className="flex items-center gap-2">
+    <nav className="bg-[#182b7c] w-full">
+      <div className="container mx-auto h-[72px] flex items-center justify-between px-6">
+        <div className="flex items-center">
           <div className="text-white text-2xl font-bold flex items-center">
-            <svg viewBox="0 0 24 24" className="w-8 h-8 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" />
-              <path d="M2 17L12 22L22 17" />
-              <path d="M2 12L12 17L22 12" />
-            </svg>
-            <span className="ml-2">
+            <img src="/homepageimages/logo4.png" alt="logo" className="h-[72px]" />
+            {/* <span className="ml-2">
               BUSINESS<br />CONSULTING
-            </span>
+            </span> */}
           </div>
         </div>
 
@@ -51,7 +49,7 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } absolute md:static top-[72px] left-0 w-full bg-[#00053d] md:w-auto md:flex items-center gap-2 md:block z-50 overflow-y-auto max-h-[calc(100vh-72px)]`}
+          } absolute md:static top-[72px] left-0 w-full bg-[#182b7c] md:w-auto items-center gap-2 md:block z-50 overflow-y-auto max-h-[calc(100vh-72px)]`}
         >
           <div className="flex flex-col md:flex-row md:items-center">
             <div className="px-3">
@@ -101,14 +99,32 @@ const Navbar = () => {
         </div>
 
         {/* Get in touch button */}
-        <div className="hidden md:block">
+
+        <div className="hidden md:flex gap-6 items-center">
+        <Link target="_blank" href="https://wa.me/+917289944059">
+            <MdWhatsapp className="text-5xl text-green-500 w-16"/>
+          </Link>
+          <Link href="/contact">
           <Button
             variant="outline"
             className="bg-transparent border-2 border-white text-yellow-400 hover:bg-yellow-400 hover:text-[#0B0B45] px-8 h-10 font-medium"
           >
             Get in touch
           </Button>
+          </Link>
+          
         </div>
+        {/* <div className="hidden md:block">
+          <Link href="/WhatsApp">
+          <Button
+            variant="outline"
+            className="bg-transparent border-2 border-white text-yellow-400 hover:bg-yellow-400 hover:text-[#0B0B45] px-8 h-6 font-medium"
+          >
+            Get in touch
+          </Button>
+          </Link>y
+          
+        </div> */}
       </div>
 
       {/* Responsive Button Placement */}

@@ -1,3 +1,4 @@
+import Business from "../homepage/section2.1"
 import Section from "./section"
 import Section1 from "./section1"
 import Section2 from "./section2"
@@ -9,7 +10,7 @@ import Section7 from "./section7"
 
 const Page = () => {
   return (
-    <div>
+    <div  className="mb-6">
       <Section1/>
       <Section />
       <Section2/>

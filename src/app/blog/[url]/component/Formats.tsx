@@ -111,7 +111,7 @@ export const CertifiedBy = ({
   data,
   Expand,
 }: {
-  data: CertifiedByData;
+  data:CertifiedByData;
   name: string;
   Expand: (url: string) => void;
 }) => {
@@ -140,7 +140,7 @@ export const CertifiedBy = ({
 };
 
 // ListFormat component
-export const ListFormat = ({ data }: { data: ListFormatData }) => {
+export const ListFormat = ({ data }: { data:ListFormatData }) => {
   return (
     <div>
       {data.title && <h2>{data.title}</h2>}

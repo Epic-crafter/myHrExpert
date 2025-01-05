@@ -1,8 +1,19 @@
-import React from 'react';
-import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from '@/components/ui/pagination';
+import React from "react";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+} from "@/components/ui/pagination";
+import { PaginationPrevious } from "@/components/ui/pagination";
 
-const PaginationComponent = ({ currentPage, totalPages, onPageChange }:any) => {
-  const handlePageClick = (page:any) => {
+const PaginationComponent = ({
+  currentPage,
+  totalPages,
+  onPageChange,
+}: any) => {
+  const handlePageClick = (page: any) => {
     onPageChange(page);
     scrollToTop();
   };
@@ -10,20 +21,23 @@ const PaginationComponent = ({ currentPage, totalPages, onPageChange }:any) => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
-
 
   const renderPageNumbers = () => {
     const pages = [];
     for (let i = 1; i <= totalPages; i++) {
       pages.push(
         <PaginationItem key={i}>
-          <PaginationLink 
-            href="#" 
-            isActive={i === currentPage} 
-            onClick={(e) => { e.preventDefault(); handlePageClick(i); }}
+          <PaginationLink
+            size="icon"
+            href="#"
+            isActive={i === currentPage}
+            onClick={(e) => {
+              e.preventDefault();
+              handlePageClick(i);
+            }}
           >
             {i}
           </PaginationLink>
@@ -38,18 +52,26 @@ const PaginationComponent = ({ currentPage, totalPages, onPageChange }:any) => {
       <PaginationContent>
         {currentPage > 1 && (
           <PaginationItem>
-            <PaginationPrevious 
-              href="#" 
-              onClick={(e) => { e.preventDefault(); handlePageClick(currentPage - 1); }} 
+            <PaginationPrevious
+              size="icon"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                handlePageClick(currentPage - 1);
+              }}
             />
           </PaginationItem>
         )}
         {renderPageNumbers()}
         {currentPage < totalPages && (
           <PaginationItem>
-            <PaginationNext 
-              href="#" 
-              onClick={(e) => { e.preventDefault(); handlePageClick(currentPage + 1); }} 
+            <PaginationNext
+             size = "icon"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                handlePageClick(currentPage + 1);
+              }}
             />
           </PaginationItem>
         )}

@@ -6,11 +6,11 @@ interface ListProps {
   data: Array<string | { value: string }>; // Array of strings or objects with a 'value' key
 }
 
-const List: React.FC<ListProps> = ({ style, data }) => {
+const List: React.FC<ListProps> = ({ style, data }:any) => {
   return (
     <>
       {data &&
-        data.map((txt, index) => (
+        data.map((txt:any, index:any) => (
           <div
             key={index}
             className="mt-2 lg:mt-4 flex lg:gap-5 md:gap-3 gap-2"

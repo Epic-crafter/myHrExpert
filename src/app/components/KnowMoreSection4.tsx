@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const KnowMoreSection4 = () => {
   return (
@@ -8,14 +9,16 @@ const KnowMoreSection4 = () => {
       Want to know more?
     </h2>
     <h2 className="text-white text-[24px] md:text-[32px]">
-      Contact with our business consultant
+      Contact with our HR Expert
     </h2>
   </div>
 
   <div className="bg-[#2460FD] flex justify-center items-center w-[160px] h-[40px]">
+    <Link href="/contact">
     <button className="text-white border-2 border-[#2460FD] px-4 py-1 hover:bg-white hover:text-[#2460FD] transition-all">
-      Learn more
+      Contact Us
     </button>
+    </Link>
   </div>
 </div>
 
