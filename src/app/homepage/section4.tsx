@@ -80,7 +80,7 @@ const TestimonialSection = () => {
 <div className="flex-1">
   <h2 className="text-3xl font-bold mb-8 text-navy-900">Higher Shiksha</h2>
   <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-  "Building an education startup required passionate and talented individuals, and MyHRexpert delivered exactly that. Their meticulous approach to understanding our needs and sourcing the right talent has been a key factor in our success. We couldn’t have done it without them!"  </p>
+  &quot;Building an education startup required passionate and talented individuals, and MyHRexpert delivered exactly that. Their meticulous approach to understanding our needs and sourcing the right talent has been a key factor in our success. We couldn’t have done it without them!&quot;  </p>
   
   <div className="mt-4">
     <h3 className="font-medium text-xl">Abhishek</h3>
@@ -113,7 +113,7 @@ const TestimonialSection = () => {
 <div className="flex-1">
   <h2 className="text-3xl font-bold mb-8 text-navy-900">Pharmalinkin</h2>
   <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-  "Finding the right talent in the pharmaceutical industry requires precision and deep understanding, and MyHRexpert has excelled on both fronts. Their expertise in navigating niche recruitment, compliance, and workforce management has been instrumental in building a team that drives innovation and growth for our company. They are a trusted partner we highly recommend."  </p>
+  &quot;Finding the right talent in the pharmaceutical industry requires precision and deep understanding, and MyHRexpert has excelled on both fronts. Their expertise in navigating niche recruitment, compliance, and workforce management has been instrumental in building a team that drives innovation and growth for our company. They are a trusted partner we highly recommend.&quot;  </p>
   
   <div className="mt-4">
     <h3 className="font-medium text-xl">Gaurav Bhardwaj</h3>
@@ -146,7 +146,7 @@ const TestimonialSection = () => {
 <div className="flex-1">
   <h2 className="text-3xl font-bold mb-8 text-navy-900">Unico</h2>
   <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-  "As a new business, finding the right talent and setting up HR processes felt overwhelming until we partnered with MyHRexpert. Their team not only helped us hire top-notch talent but also designed a seamless HR framework tailored to our needs. Their dedication and expertise have been invaluable to our growth journey."  </p>
+  &quot;As a new business, finding the right talent and setting up HR processes felt overwhelming until we partnered with MyHRexpert. Their team not only helped us hire top-notch talent but also designed a seamless HR framework tailored to our needs. Their dedication and expertise have been invaluable to our growth journey.&quot;</p>
   
   <div className="mt-4">
     <h3 className="font-medium text-xl">Kshitiz Bagla</h3>

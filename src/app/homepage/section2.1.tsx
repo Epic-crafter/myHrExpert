@@ -42,11 +42,11 @@ const Business = () => {
       {/* Grid Section */}
 
       <Swiper
-      spaceBetween={60}
-      slidesPerView={4}
+      spaceBetween={20}
+      slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-className='w-full h-[200px] px-4 lg:px-24'
+className='w-full'
 autoplay={{
   delay: 2500,
   disableOnInteraction: false,
@@ -60,12 +60,12 @@ modules={[Autoplay, Pagination, Navigation]}
       {sectors.map((sector, index) => (
           <SwiperSlide
             key={index}
-            className="relative aspect-square h-[120px] bg-gray-100 rounded-lg overflow-hidden shadow-md group"
+            className="relative aspect-square h-60 md:h-72 lg:h-80 bg-gray-100 rounded-lg overflow-hidden shadow-md group"
           >
             <img
               src={sector.image}
               alt={sector.alt}
-              className="w-full  object-cover transition-transform duration-300 group-hover:scale-105"
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
             <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent"></div>
             <div className="absolute bottom-3 left-3 text-white text-lg font-medium z-10">

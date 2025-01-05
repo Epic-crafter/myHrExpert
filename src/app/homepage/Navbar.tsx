@@ -13,10 +13,10 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#182b7c] w-full">
-      <div className="container mx-auto h-[72px] flex items-center justify-between px-6 md:px-20">
-        <div className="flex items-center gap-2">
+      <div className="container mx-auto h-[72px] flex items-center justify-between px-6">
+        <div className="flex items-center">
           <div className="text-white text-2xl font-bold flex items-center">
-            <img src="/homepageimages/logo4.png" alt="logo" className="w-28 " />
+            <img src="/homepageimages/logo4.png" alt="logo" className="h-[72px]" />
             {/* <span className="ml-2">
               BUSINESS<br />CONSULTING
             </span> */}
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } absolute md:static top-[72px] left-0 w-full bg-[#182b7c] md:w-auto md:flex items-center gap-2 md:block z-50 overflow-y-auto max-h-[calc(100vh-72px)]`}
+          } absolute md:static top-[72px] left-0 w-full bg-[#182b7c] md:w-auto items-center gap-2 md:block z-50 overflow-y-auto max-h-[calc(100vh-72px)]`}
         >
           <div className="flex flex-col md:flex-row md:items-center">
             <div className="px-3">
