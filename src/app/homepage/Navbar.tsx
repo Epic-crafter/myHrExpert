@@ -2,8 +2,10 @@
 
 
 import { Button } from "@/components/ui/button";
+import { WhatsApp } from "@mui/icons-material";
 import Link from "next/link";
 import { useState } from "react";
+import { MdWhatsapp } from "react-icons/md";
 
 
 const Navbar = () => {
@@ -97,7 +99,11 @@ const Navbar = () => {
         </div>
 
         {/* Get in touch button */}
-        <div className="hidden md:block">
+
+        <div className="hidden md:flex gap-6 items-center">
+        <Link target="_blank" href="https://wa.me/+917289944059">
+            <MdWhatsapp className="text-5xl text-green-500 w-16"/>
+          </Link>
           <Link href="/contact">
           <Button
             variant="outline"
@@ -105,9 +111,20 @@ const Navbar = () => {
           >
             Get in touch
           </Button>
-          </Link>y
+          </Link>
           
         </div>
+        {/* <div className="hidden md:block">
+          <Link href="/WhatsApp">
+          <Button
+            variant="outline"
+            className="bg-transparent border-2 border-white text-yellow-400 hover:bg-yellow-400 hover:text-[#0B0B45] px-8 h-6 font-medium"
+          >
+            Get in touch
+          </Button>
+          </Link>y
+          
+        </div> */}
       </div>
 
       {/* Responsive Button Placement */}

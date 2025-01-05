@@ -1,4 +1,5 @@
-import React from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react"; // This import is unused, you may remove it if not needed
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -9,6 +10,20 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const NewsSection = () => {
+
+  const[data,setdata]=useState([])
+
+  const blog=async()=>{
+  const res=await fetch("/api/blog/get-3-blog")
+  const blogs=await res.json()  
+  if(blogs.length > 0){
+  setdata(blogs)
+  }}
+
+useEffect(()=>{
+blog()
+},[])
+
   const newsItems = [
     {
       date: "25.01.24",
@@ -61,13 +76,13 @@ const NewsSection = () => {
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
         >
-          {newsItems.map((newsItem, index) => (
+          {data?.map((newsItem, index) => (
             <SwiperSlide
               key={index}
               className="relative aspect-square h-[120px] bg-gray-100 rounded-lg overflow-hidden shadow-md group"
             >
               <img
-                src={newsItem.image}
+                src={newsItem.imageUrl}
                 alt={newsItem.title}
                 className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
