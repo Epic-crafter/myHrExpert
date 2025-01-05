@@ -73,7 +73,7 @@ const ServiceOfferSection3 = () => {
         <h2 className="text-[20px] font-[500] text-[#000D51] text-center sm:text-left">{card.title}</h2>
         <p className="text-[#000D5199] text-[16px] font-[400] text-center sm:text-left">{card.desc}</p>
         <button className="border-[2px] border-[#2460FD] bg-[#2460FD] text-white flex justify-center items-center mx-auto sm:mx-0 w-[160px] h-[40px]">
-          Details <img className="ml-2" src="/img/cards/arrow-right.png" alt="" />
+          Contact us<img className="ml-2" src="/img/cards/arrow-right.png" alt="" />
         </button>
       </div>
     ))}

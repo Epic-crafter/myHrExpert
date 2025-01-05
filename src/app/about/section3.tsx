@@ -2,15 +2,19 @@ import React from "react";
 
 const BusinessStats = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center px-6 lg:px-20 py-16 bg-gray-50 gap-[4rem]">
+    <div className="flex flex-col lg:flex-row items-stretch justify-center px-6 lg:px-20 py-16 bg-gray-50 gap-[4rem]">
 
-      <div className="flex-shrink-0">
-        <img
-          src="./aboutus/image.jpg"
-          alt="Business consulting"
-          className="w-full max-w-lg lg:max-w-md h-[55vh] object-cover rounded-md shadow-sm"
-        />
-      </div>
+
+<div className="flex-shrink-0 h-[55vh]">
+  <img
+    src="./aboutus/image.jpg"
+    alt="Business consulting"
+    className="w-full h-full object-cover rounded-md shadow-sm block align-top"
+  />
+</div>
+
+
+
 
 
       <div className="mt-12 lg:mt-0 lg:ml-20 max-w-lg">

@@ -29,7 +29,7 @@ const Hero = () => {
   <div className="section-2 w-full md:w-[50%] flex justify-center items-center">
     <div className="fram-img relative w-full">
       {<img src="/service/image5.png" alt="img frame"
-      className='w-full object-contain'
+      className='w-full object-contain h-[500px]'
       />}
     </div>
 
