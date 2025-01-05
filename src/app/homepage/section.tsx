@@ -99,7 +99,7 @@ const BusinessServices = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center mt-8 bg-white p-6 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center mt-8 bg-white p-6  mx-auto">
         <div>
           <h3 className="text-4xl font-bold text-[#00053D] mb-2">10k+</h3>
           <p className="text-gray-500">Supported businesses</p>

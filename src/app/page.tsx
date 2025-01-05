@@ -27,74 +27,75 @@ const HeroSection = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
-        {/* Content Container */}
-        <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-32">
-          {/* Left Content */}
-          <div className="max-w-[600px] relative z-10">
-            <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
-            Empowering Your Business: Unleash Potential with us!
-            </p>
+      <div className="bg-[#00053D] lg:min-h-[67vh] relative overflow-hidden">
+        <div className="flex flex-col lg:flex-row">
 
-            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-5 leading-tight">
-            We work with you to <br className="hidden md:block" />
-            make your vision a reality
-            </h1>
+          <div className="w-full lg:w-3/5 px-4 lg:px-16 py-8 lg:pt-32 lg:pb-16">
 
-            <p className="text-[#94A3B8] text-base lg:text-lg mb-10 leading-relaxed">
-            Together, we’ll build a stronger foundation for growth and long-term success. Let us bring your vision to life!
-              <br className="hidden md:block" />
-              
-            </p>
+            <div className="max-w-[600px] relative z-10">
+              <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
+                Empowering Your Business: Unleash Potential with us!
+              </p>
 
-            {/* Features */}
-            <div className="mb-10">
-              <div className="flex flex-col md:flex-row gap-4 md:gap-16 mb-4">
-                <div className="flex items-center gap-2">
-                  <BlueArrow />
-                  <span className="text-white">Strategic excellence</span>
+              <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-5 leading-tight">
+                We work with you to <br className="hidden md:block" />
+                make your vision a reality
+              </h1>
+
+              <p className="text-[#94A3B8] text-base lg:text-lg mb-6 lg:mb-10 leading-relaxed">
+                Together, we'll build a stronger foundation for growth and long-term success. Let us bring your vision to life!
+                <br className="hidden md:block" />
+              </p>
+
+
+              <div className="mb-6 lg:mb-10">
+                <div className="flex flex-col md:flex-row gap-3 md:gap-16 mb-3">
+                  <div className="flex items-center gap-2">
+                    <BlueArrow />
+                    <span className="text-white">Strategic excellence</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <BlueArrow />
+                    <span className="text-white">Business consulting</span>
+                  </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <BlueArrow />
-                  <span className="text-white">Business consulting</span>
+                  <span className="text-white">Innovation</span>
                 </div>
               </div>
-              <div className="flex items-center gap-2">
-                <BlueArrow />
-                <span className="text-white">Innovation</span>
-              </div>
-            </div>
 
-            {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-              <Button
-                className="border-2 border-[#2563EB] text-[#2563EB] bg-transparent px-8 py-3 text-base font-medium rounded hover:bg-[#2563EB] hover:text-white transition-colors"
-              >
-                Button
-              </Button>
-              <Button
-                className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
-              >
-                Learn more
-              </Button>
+  
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-6">
+                <Button
+                  className="border-2 border-[#2563EB] text-[#2563EB] bg-transparent px-8 py-3 text-base font-medium rounded hover:bg-[#2563EB] hover:text-white transition-colors"
+                >
+                  Button
+                </Button>
+                <Button
+                  className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
+                >
+                  Learn more
+                </Button>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Right Design Element */}
-        <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative">
-          {/* Background Design */}
-          <img
-            src="./Group.png"
-            alt="Background"
-            className="hidden lg:block w-full h-auto"
-          />
-          {/* Image of the Woman */}
-          <img
-            src="./pot.png"
-            alt="Pot"
-            className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto"
-          />
+          {/* Right Design Element - Hidden on mobile */}
+          <div className="hidden lg:block lg:w-2/5 relative">
+
+            <img
+              src="./Group.png"
+              alt="Background"
+              className="w-full h-auto"
+            />
+
+            <img
+              src="./pot.png"
+              alt="Pot"
+              className="absolute top-0 right-28 w-auto"
+            />
+          </div>
         </div>
       </div>
       <Section />
@@ -111,3 +112,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

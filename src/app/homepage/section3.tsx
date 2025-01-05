@@ -1,73 +1,66 @@
-"use client";
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 
 
-const BlueArrow = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="10" cy="10" r="10" fill="#2563EB" />
-    <path
-      d="M8 6L12 10L8 14"
-      stroke="white"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
 
 const HeroSection = () => {
   return (
     <>
+  
+      <div className="bg-[#00053D] lg:min-h-[67vh] relative overflow-hidden">
+        <div className="flex flex-col lg:flex-row">
+          {/* Content Container */}
+          <div className="w-full lg:w-3/5 px-4 lg:px-16 py-8 lg:pt-32 lg:pb-16">
+            {/* Left Content */}
+            <div className="max-w-[600px] relative z-10">
+              <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
+                Empowering Your Business: Unleash Potential with us!
+              </p>
 
-      <div className="bg-[#00053D] min-h-[67vh] relative overflow-hidden flex flex-col lg:flex-row">
-        {/* Content Container */}
-        <div className="w-full lg:w-3/5 px-4 lg:px-16 pt-20 lg:pt-32">
-          {/* Left Content */}
-          <div className="max-w-[600px] relative z-10">
-            <p className="text-[#94A3B8] mb-3 text-sm tracking-wider uppercase">
-              BUSINESS CONSULTING
-            </p>
+              <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-5 leading-tight">
+                We work with you to <br className="hidden md:block" />
+                make your vision a reality
+              </h1>
 
-            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-5 leading-tight">
-              Ultimate Solutions for<br className="hidden md:block" />
-              Modern Businesses
-            </h1>
+              <p className="text-[#94A3B8] text-base lg:text-lg mb-6 lg:mb-10 leading-relaxed">
+                Together, we'll build a stronger foundation for growth and long-term success. Let us bring your vision to life!
+                <br className="hidden md:block" />
+              </p>
 
-            <p className="text-[#94A3B8] text-base lg:text-lg mb-10 leading-relaxed">
-              Suscipit feugiat purus ac nunc amet. Id pulvinar arcu nibh orci
-              <br className="hidden md:block" />
-              non rhoncus lobortis id neque...
-            </p>
+    
 
-        
-
-
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-             
-              <Button
-                className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
-              >
-                Learn more
-              </Button>
+           
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-6">
+                <Button
+                  className="border-2 border-[#2563EB] text-[#2563EB] bg-transparent px-8 py-3 text-base font-medium rounded hover:bg-[#2563EB] hover:text-white transition-colors"
+                >
+                  Button
+                </Button>
+                <Button
+                  className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
+                >
+                  Learn more
+                </Button>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative">
         
-      
-          <img
-            src="./Img (2).png"
-            alt="Pot"
-            className="hidden lg:block absolute top-0 right-0 lg:right-28 w-1/2 lg:w-auto margin top-[98px]"
-          />
+          <div className="hidden lg:block lg:w-2/5 relative">
+        
+            {/* Image of the Pot */}
+            <img
+              src="./Img (2).png"
+              alt="Pot"
+              className="absolute top-[121px] right-28 w-auto"
+            />
+          </div>
         </div>
       </div>
-
+     
     </>
   );
 };
 
 export default HeroSection;
+

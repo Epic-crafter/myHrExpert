@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Hamburger Menu Icon */}
+       
         <div className="md:hidden flex items-center">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}

@@ -14,7 +14,6 @@ const Business = () => {
 
   return (
     <div className="px-5">
-      {/* Header Section */}
       <div className="flex flex-col md:flex-row justify-between items-start mb-14">
         <div className="flex flex-col gap-2 max-w-xl">
           <span className="text-base font-semibold text-[#000D51] uppercase tracking-wide">BUSINESS CONSULTING</span>
@@ -30,19 +29,21 @@ const Business = () => {
         </p>
       </div>
 
-      {/* Grid Section */}
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1200px] mx-auto">
         {sectors.map((sector, index) => (
           <div
             key={index}
-            className="relative w-full h-[250px] bg-gray-100 rounded-lg overflow-hidden shadow-md group"
+            className="relative aspect-[4/3] w-full bg-gray-100 rounded-lg overflow-hidden shadow-md group"
           >
-            <img
-              src={sector.image}
-              alt={sector.alt}
-              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black to-transparent"></div>
+            <div className="absolute inset-0">
+              <img
+                src={sector.image}
+                alt={sector.alt}
+                className="w-full h-full object-contain bg-white transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+            <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent"></div>
             <div className="absolute bottom-3 left-3 text-white text-lg font-medium z-10">
               {sector.title}
             </div>
@@ -54,3 +55,4 @@ const Business = () => {
 };
 
 export default Business;
+
