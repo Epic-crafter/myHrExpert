@@ -10,7 +10,7 @@ const BusinessConsulting = () => {
         </p> */}
         <h1 className="text-[#0A2463] text-4xl font-bold">Helping your business build and grow</h1>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="flex flex-col items-center">
           <div className="mb-4">
             <img src="./aboutus/image copy 5.png" alt="What we do" className=" w-[3rem]" />

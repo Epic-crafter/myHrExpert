@@ -90,7 +90,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Design Element */}
-        <div className="section-2 w-full md:w-full flex justify-center items-center">
+        <div className="section-2 w-full md:w-full flex justify-center items-end">
           {/* Background Design */}
           {/* <img
             src="./Group.png"
