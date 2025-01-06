@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className="w-full h-auto px-3 pt-16 bg-[#000D51]">
     <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
-      <div className="section-1 flex flex-col">
-        <div className="logo flex items-center mb-4">
-          <img src="/homepageimages/logo4.png" alt="" className="mr-2"  />
+      <div className="section-1 flex flex-col ">
+        <div className="logo flex items-center mb-4 ">
+          <img src="/homepageimages/logo4.png" alt="" className="mr-2" width="100px" />
           {/* <h2 className="text-white text-[16px] font-[600]">BUSINESS <br /> CONSULTING</h2> */}
         </div>
         <p className="text-[#FFFFFFCC] text-[16px] font-[400] mb-4">

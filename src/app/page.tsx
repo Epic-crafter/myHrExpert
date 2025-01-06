@@ -12,8 +12,14 @@ import Section5 from "./homepage/section5";
 import Link from "next/link";
 
 // const BlueArrow = () => (
-//   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-//     <circle cx="10" cy="10" r="10" fill="#2563EB" />
+//   <svg
+//     width="20"
+//     height="20"
+//     viewBox="0 0 20 20"
+//     fill="none"
+//     xmlns="http://www.w3.org/2000/svg"
+//   >
+// //     <circle cx="10" cy="10" r="10" fill="#2563EB" />
 //     <path
 //       d="M8 6L12 10L8 14"
 //       stroke="white"
@@ -26,7 +32,6 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-
     <>
       <div className="bg-[#00053D] flex flex-col lg:flex-row">
         {/* Content Container */}
@@ -96,7 +101,7 @@ const HeroSection = () => {
           <img
             src="./homepageimages/home.png"
             alt="Pot"
-            className="lg:block object-cover h-auto lg:h-[70vh]"
+            className="lg:block object-cover h-auto lg:h-[51vh]"
           />
         </div>
       </div>

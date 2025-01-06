@@ -3,8 +3,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 
-
-
 const HeroSection = () => {
   return (
     <>
@@ -30,14 +28,8 @@ const HeroSection = () => {
             Ultimate Solutions for Modern Businesses - At MyHRExpert, we deliver tailored HR solutions that align with your unique business needs. Our experienced team combines industry expertise with innovative technology to streamline your HR processes and enhance efficiency. We prioritize employee engagement and retention, fostering a positive workplace culture that drives productivity. With a comprehensive range of services—from talent acquisition to performance management—we are your all-in-one HR partner. Committed to ensuring compliance and mitigating risks, we deliver proven results. Experience the MyHRExpert advantage and unlock your organization’s full potential today!             
             </p>
 
-  
-
-
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-             
-              <Button
-                className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors"
-              >
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center lg:justify-start">
+              <Button className="bg-[#2563EB] text-white px-8 py-3 text-base font-medium rounded hover:bg-[#1d4ed8] transition-colors">
                 Learn more
               </Button>
             </div>
@@ -63,7 +55,6 @@ const HeroSection = () => {
 
         </div>
       </div>
-
     </>
   );
 };
